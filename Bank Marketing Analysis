@@ -1,0 +1,42 @@
+Bank Marketing Campaign Analysis and Model Evaluation
+
+Project Overview
+This project analyzes and evaluates a bank’s direct marketing campaign data, aiming to predict whether clients will subscribe to a term deposit. The dataset contains information on a banking institution campaigns that reached clients via phone calls, with the classification target being term deposit subscription (yes or no).
+Data Set Information
+•	Source:banking institution’s direct marketing campaigns.
+•	Goal: Predict customer subscription to term deposits based on client and contact data.
+•	Contacts: Multiple contacts per client were made in certain cases to assess the likelihood of subscribing to a term deposit.
+
+Attribute Information
+Bank Client Data
+•	Age: Age of the client (numeric).
+•	Job: Type of job (categorical: admin., blue-collar, entrepreneur, etc.).
+•	Marital: Marital status (categorical: divorced, married, single, unknown).
+•	Education: Education level (categorical: basic.4y, high.school, university.degree, etc.).
+•	Default: Has credit in default? (categorical: no, yes, unknown).
+•	Housing: Has housing loan? (categorical: no, yes, unknown).
+•	Loan: Has personal loan? (categorical: no, yes, unknown).
+Contact Data (from Current Campaign)
+•	Contact: Contact communication type (categorical: cellular, telephone).
+•	Month: Last contact month of the year (categorical: jan, feb, mar, etc.).
+•	Duration: Last contact duration, in seconds (numeric). Note that duration greatly affects the outcome, but this should be used carefully to avoid data leakage.
+
+Additional Attributes
+•	Campaign-related features, like number of contacts, days since last contact, and other indicators.
+Project Steps
+1.	Data Preprocessing:
+	Clean data, handle missing values, and encode categorical variables.
+	Analyze the impact of each attribute and determine if some features (e.g., duration) might introduce bias.
+2.	Exploratory Data Analysis (EDA):
+	Explore correlations between features, visualize the distribution of target classes, and assess feature relevance.
+3.	Model Training:
+o	Train machine learning models (e.g., logistic regression, decision trees) to classify customer responses.
+4.	Model Evaluation:
+	Evaluate model performance using metrics such as accuracy, precision, recall, and AUC.
+	Compare models to identify the most reliable predictor for term deposit subscriptions.
+
+Tools and Technologies
+•	Python (Pandas, Scikit-Learn): For data preprocessing, model training, and evaluation.
+•	Tableau: For visualization of insights and model performance metrics.
+
+
