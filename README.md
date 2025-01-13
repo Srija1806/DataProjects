@@ -15,7 +15,14 @@ Welcome to my portfolio of data science and analytics projects. This repository 
 
 4. [Supply Chain Analysis (Tableau Project)](./Tableau%20projects/Supply%20Chain%20Analysis.twb)  
    A Tableau visualization project focused on analyzing and optimizing supply chain data for strategic decision-making.
+   
+5. [Targeted Marketing (Logistic Regression and SMOTE Analysis)](./Targeted%20Marketing/README.md) 
+   This project aims to analyze and optimize marketing strategies using data-driven techniques. The analysis identifies key customer segments and evaluates their likelihood to respond to 
+   targeted marketing campaigns.
 
+6. [HR Analytics (Tableau Project)](./Tableau%20projects/Srija_Chillara_HRAnalytics.twb)
+   A Tableau visualization project focused on analyzing company attrition and hiring trends.
+   
 ## About
 
 These projects were developed to demonstrate data science techniques across different domains, using a variety of tools and methodologies. Each project includes a README file (or a Tableau workbook) with further details, instructions, and analyses.
